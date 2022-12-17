@@ -22,6 +22,13 @@
          .dropdown-item:hover {
             background-color: black;
          }
+         a {
+            text-decoration: none;
+            color: #dc3545;
+         }
+         a:hover {
+            color: #ffc107;
+         }
       </style>
    </head>
    <body class="text-bg-dark">
@@ -106,7 +113,16 @@
       </header>
 
       <main>
-         <div class="container" style="margin-top: 6rem">
+         <nav
+            class="text-light"
+            style="margin-top: 6rem; --bs-breadcrumb-divider: '>'"
+            aria-label="breadcrumb"
+         >
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+            </ol>
+         </nav>
+         <div class="container">
             <h1 class="text-center">Bizi Tanıyın!</h1>
             <p>
                2002'de kurulmuş küresel bir video oyun geliştirme stüdyosuyuz. Merkezi Varşova'da,
