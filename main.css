@@ -1,0 +1,10 @@
+.dropdown-item:hover {
+   background-color: black;
+}
+a {
+   text-decoration: none;
+   color: #dc3545;
+}
+a:hover {
+   color: #ffc107;
+}
